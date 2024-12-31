@@ -1,0 +1,10 @@
+// script is cannot copy code .
+<script>
+        document.addEventListener('copy',function(e){
+            e.preventDefault(); // prevent the default copy action
+
+            //optional: write to the clipboard
+            // const custoMessage = "Serupally Mohan Prasad";
+            e.clipboardData.setData('text/plain','You are not allowed to copy content');
+        });
+    </script>
